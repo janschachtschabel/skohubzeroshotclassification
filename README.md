@@ -27,6 +27,7 @@ App starten
 
 ```bash
 streamlit run app.py
+```
 
 Die App öffnet sich im Browser unter: http://localhost:8501
 
@@ -35,6 +36,7 @@ Die App öffnet sich im Browser unter: http://localhost:8501
 
 ```bash
 python training.py --input input.json --output training.jsonl
+```
 
 Dieses Skript erstellt ein JSONL-Dokument im OpenAI-Fine-Tuning-Format, basierend auf vorhandenen Beschreibungstexten und den zugehörigen Metadaten. Ideal zur Erstellung domänenspezifischer Klassifizierungsmodelle.
 
