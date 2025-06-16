@@ -1,0 +1,2 @@
+# skohubzeroshotclassification
+SkoHub ZeroShot Classification
