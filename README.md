@@ -20,3 +20,41 @@ Es nutzt die OpenAI API, um Texte automatisch mit passenden Metadaten zu annotie
 
 ```bash
 pip install -r requirements.txt
+
+## 🚀 Nutzung
+
+App starten
+
+```bash
+streamlit run app.py
+
+Die App öffnet sich im Browser unter: http://localhost:8501
+
+
+## 🛠 Trainingsdatensatz generieren (für Fine-Tuning)
+
+```bash
+python training.py --input input.json --output training.jsonl
+
+Dieses Skript erstellt ein JSONL-Dokument im OpenAI-Fine-Tuning-Format, basierend auf vorhandenen Beschreibungstexten und den zugehörigen Metadaten. Ideal zur Erstellung domänenspezifischer Klassifizierungsmodelle.
+
+## 🌐Beispiel-Vokabular-URLs
+
+https://vocabs.openeduhub.de/w3id.org/openeduhub/vocabs/discipline/index.json
+https://vocabs.openeduhub.de/w3id.org/openeduhub/vocabs/educationalContext/index.json
+https://vocabs.openeduhub.de/w3id.org/openeduhub/vocabs/intendedEndUserRole/index.json
+https://vocabs.openeduhub.de/w3id.org/openeduhub/vocabs/learningResourceType/index.json
+
+Diese Vokabulare folgen dem SKOS-Standard.
+
+📄 Lizenz
+
+Apache 2.0
+
+
+
+
+
+
+
+
