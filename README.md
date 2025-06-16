@@ -20,6 +20,7 @@ Es nutzt die OpenAI API, um Texte automatisch mit passenden Metadaten zu annotie
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## 🚀 Nutzung
 
